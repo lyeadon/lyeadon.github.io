@@ -1,0 +1,66 @@
+body{
+  background-color:black;
+}
+
+#Maintext{
+  color:white;
+  font-weight: bold;
+  font-size: 4em;
+  margin-top: -.1em;
+}
+
+#p1{
+  font-weight: bold;
+  text-align: right;
+  margin-top: -7em;
+}
+
+#infotext{
+  color:white;
+  font-size: 1.4em;
+  margin-right: 15px;
+  text-decoration: none;
+  display:inline-block;
+}
+
+#infotext::after{
+  content: '';
+  display:block;
+  width: 0;
+  height: 2px;
+  background: rgb(189, 15, 220);
+}
+
+#infotext:hover::after{
+  transition: 0.2s;
+  width:100%;
+}
+
+#justtwodudes{
+  text-align: center;
+  margin-top: 90px;
+  font-weight: bold;
+  font-size: 600%;
+  color:white;
+}
+
+#currentlywalking{
+  text-align: center;
+  font-size:300%;
+  font-weight: bold;
+  margin-top: -70px;
+  color:white;
+}
+
+#stateswalked{
+  text-align: center;
+  font-size:350%;
+  font-weight: bold;
+  color:white;
+  margin-top: -15px
+}
+
+#placeswalked{
+  width: 30%;
+  height: 30%;
+}
