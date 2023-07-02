@@ -1,18 +1,16 @@
 body{
-  background-color:black;
+  background-image: linear-gradient(to bottom right, black,rgb(11, 0, 73), rgb(107, 0, 0));
+  background-attachment: fixed;
 }
 
-#Maintext{
-  color:white;
-  font-weight: bold;
-  font-size: 4em;
-  margin-top: -.1em;
+#mainlogo{
+  height:120px;
 }
 
 #p1{
   font-weight: bold;
   text-align: right;
-  margin-top: -7em;
+  margin-top: -6.8em;
 }
 
 #infotext{
@@ -28,7 +26,7 @@ body{
   display:block;
   width: 0;
   height: 2px;
-  background: rgb(189, 15, 220);
+  background: rgb(221, 71, 244);
 }
 
 #infotext:hover::after{
@@ -38,7 +36,6 @@ body{
 
 #firsttext{
   color:white;
-  background-color: black;
   font-weight: bold;
   text-align: left;
   padding: 7px 0px 5px 10px;
@@ -47,14 +44,13 @@ body{
   margin-top: 5%;
   border: none;
   border-bottom: solid;
-  border-color: rgb(189, 15, 220);
+  border-color: rgb(221, 71, 244);
   width: 58%;
   border-width: 1px;
 }
 
 #maintext{
   color:white;
-  background-color: black;
   font-weight: bold;
   text-align: left;
   padding: 7px 0px 5px 10px;
@@ -62,7 +58,7 @@ body{
   margin-left: 20%;
   border: none;
   border-bottom: solid;
-  border-color: rgb(189, 15, 220);
+  border-color: rgb(221, 71, 244);
   width: 58%;
   border-width: 1px;
 }
@@ -72,4 +68,16 @@ body{
   margin-left: 22%;
   margin-right: 26%;
   font-size: 1.2vw;
+}
+
+#contactlogos{
+  height: 38px;
+  margin-bottom: 20px;
+}
+
+#positionlogos{
+  position: fixed;
+  left: 98%;
+  top: 40%;
+  transform: translate(-50%);
 }

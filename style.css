@@ -1,18 +1,22 @@
 body{
-  background-color:black;
+  background-image: linear-gradient(to bottom right, black,rgb(11, 0, 73), rgb(107, 0, 0));
+  background-attachment: fixed;
 }
 
-#Maintext{
-  color:white;
-  font-weight: bold;
-  font-size: 4em;
-  margin-top: -.1em;
+#mainlogo{
+  height:120px;
 }
 
 #p1{
   font-weight: bold;
   text-align: right;
-  margin-top: -7em;
+  margin-top: -6.8em;
+}
+
+#alltext{
+  color:white;
+  text-align: center;
+  font-weight: bold;
 }
 
 #infotext{
@@ -28,7 +32,7 @@ body{
   display:block;
   width: 0;
   height: 2px;
-  background: rgb(189, 15, 220);
+  background: rgb(221, 71, 244);
 }
 
 #infotext:hover::after{
@@ -37,30 +41,33 @@ body{
 }
 
 #justtwodudes{
-  text-align: center;
   margin-top: 90px;
-  font-weight: bold;
   font-size: 600%;
-  color:white;
 }
 
 #currentlywalking{
-  text-align: center;
   font-size:300%;
-  font-weight: bold;
   margin-top: -70px;
-  color:white;
 }
 
 #stateswalked{
-  text-align: center;
   font-size:350%;
-  font-weight: bold;
-  color:white;
   margin-top: -15px
 }
 
 #placeswalked{
   width: 30%;
   height: 30%;
+}
+
+#contactlogos{
+  height: 38px;
+  margin-bottom: 20px;
+}
+
+#positionlogos{
+  position: fixed;
+  left: 98%;
+  top: 40%;
+  transform: translate(-50%);
 }
