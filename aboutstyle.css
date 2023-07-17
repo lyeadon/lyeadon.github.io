@@ -100,6 +100,50 @@ body{
   margin-right: 20%;
 }
 
+#whoweare{
+  color:white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 40px;
+  border: solid;
+  border-color:rgb(221, 71, 244); 
+  padding: 20px 20px 20px 20px;
+  width: 275px;
+  margin-left: 50%;
+  transform: translate(-50%)
+}
+
+#hogman{
+  color:white;
+  margin-top: 50px;
+  margin-left: 51%;
+  font-size: 1.8vw;
+}
+
+#hogandude{
+  margin-left: 30%;
+  margin-top: -5.5vw;
+  height: 24vw;
+  border-right: solid rgb(221, 71, 244);
+  padding-right: 25px;
+}
+
+#buffnerd{
+  color: white;
+  margin-left: 51%;
+  margin-top: -1.5vw;
+  font-size: 1.2vw;
+  padding-bottom: 7px;
+  border-bottom: solid rgb(221, 71, 244);
+  width: 250px;
+}
+
+#hogmanparagraph{
+  color: white;
+  font-size: 1.15vw;
+  margin: -19.5% 21% 5% 51%;
+}
+
 #contactlogos{
   height: 32px;
   margin-bottom: 20px;
