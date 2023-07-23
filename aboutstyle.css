@@ -120,10 +120,16 @@ body{
   font-size: 3.4vw;
 }
 
+#imagesize{
+  height: 459px;
+  width: 346px;
+}
+
 #hogandude{
-  margin-left: 15%;
+  margin-left: 82%;
   margin-top: -9.7vw;
-  height: 670px;
+  width: 145%;
+  height: 145%;
   border-right: solid rgb(221, 71, 244);
   padding-right: 25px;
 }
@@ -141,7 +147,7 @@ body{
 #hogmanparagraph{
   color: white;
   font-size: 218%;
-  margin: -27vw 8vw 4vw 44vw;
+  margin: -25.6vw 8vw 4vw 44vw;
 }
 
 #contactlogos{
