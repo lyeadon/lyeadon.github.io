@@ -113,6 +113,11 @@ body{
   transform: translate(-50%)
 }
 
+#imagesize{
+  width: auto;
+  height: auto;
+}
+
 #hogman{
   color:white;
   margin-left: 44vw;
@@ -122,8 +127,8 @@ body{
 #hogandude{
   position: absolute;
   margin-left: 14%;
-  margin-top: -10vw;
-  width: 27.5vw;
+  margin-top: -7vw;
+  width: 27.7%;
   border-right: solid;
   border-color:rgb(221, 71, 244); 
   padding-right: 20px;
