@@ -121,11 +121,11 @@ body{
 
 #hogmandude{
   position: absolute;
-  width: 25%;
+  width: 48vh;
   margin-left: 6%;
   border-right: solid;
   border-color:rgb(221, 71, 244); 
-  padding-right: 18px;
+  padding-right: 16px;
 }
 
 #buffnerd{
