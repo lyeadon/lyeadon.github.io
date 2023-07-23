@@ -49,7 +49,7 @@ body{
 
 #aboutparagraph{
   color: white;
-  line-height: 40px;
+  line-height: 2vw;
   font-size: 1.9vw;
   text-align: center;
   margin-left: 15%;
@@ -71,7 +71,7 @@ body{
 
 #ourparagraph{
   color: white;
-  line-height: 40px;
+  line-height: 2vw;
   font-size: 1.9vw;
   text-align: center;
   margin-left: 15%;
@@ -93,7 +93,7 @@ body{
 
 #whatsparagraph{
   color: white;
-  line-height: 40px;
+  line-height: 2vw;
   font-size: 1.9vw;
   text-align: center;
   margin-left: 15%;
@@ -115,23 +115,18 @@ body{
 
 #hogman{
   color:white;
-  margin-top: 50px;
   margin-left: 44vw;
   font-size: 3.4vw;
 }
 
-#imagesize{
-  height: 459px;
-  width: 346px;
-}
-
 #hogandude{
-  margin-left: 82%;
-  margin-top: -9.7vw;
-  width: 145%;
-  height: 145%;
-  border-right: solid rgb(221, 71, 244);
-  padding-right: 25px;
+  position: absolute;
+  margin-left: 14%;
+  margin-top: -7vw;
+  width: 27.5vw;
+  border-right: solid;
+  border-color:rgb(221, 71, 244); 
+  padding-right: 20px;
 }
 
 #buffnerd{
@@ -139,15 +134,15 @@ body{
   margin-left: 44vw;
   margin-top: -2.8vw;
   font-size: 2.4vw;
-  padding-bottom: 7px;
   border-bottom: solid rgb(221, 71, 244);
   width: 250px;
+  padding-bottom: 7px;
 }
 
 #hogmanparagraph{
   color: white;
-  font-size: 218%;
-  margin: -25.6vw 8vw 4vw 44vw;
+  font-size: 1.86vw;
+  margin: -1.6vw 8vw 4vw 44vw;
 }
 
 #contactlogos{
