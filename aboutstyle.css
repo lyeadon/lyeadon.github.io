@@ -115,7 +115,6 @@ body{
 
 #imagescale{
   height: 0;
-  padding-bottom: 56.25%; /* 16:9 */
   position: relative;
 }
 
@@ -127,7 +126,8 @@ body{
 
 #hogmandude{
   position: absolute;
-  width: 25.6%;
+  top: 0; left: 0;
+  width: 25.4%; height: auto;
   margin-left: 6%;
   border-right: solid;
   border-color:rgb(221, 71, 244); 
