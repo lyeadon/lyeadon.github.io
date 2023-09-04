@@ -49,11 +49,11 @@ body{
 
 #aboutparagraph{
   color: white;
-  line-height: 52px;
-  font-size: 43px;
+  line-height: 2.4vw;
+  font-size: 2vw;
   text-align: center;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #ourgoal{
@@ -71,11 +71,11 @@ body{
 
 #ourparagraph{
   color: white;
-  line-height: 52px;
-  font-size: 43px;
+  line-height: 2.4vw;
+  font-size: 2vw;
   text-align: center;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #whatspowering{
@@ -93,11 +93,11 @@ body{
 
 #whatsparagraph{
   color: white;
-  line-height: 52px;
-  font-size: 43px;
+  line-height: 2.4vw;
+  font-size: 2vw;
   text-align: center;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 #whoweare{
