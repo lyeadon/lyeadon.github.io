@@ -1,0 +1,88 @@
+body{
+  background-color: rgb(8, 8, 8);
+}
+
+div.Main-header{
+  color: white;
+  font-size: 1.1vw;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 30px;
+}
+
+img.Main-logo{
+  width: 5vw;
+  margin: 10px 0px;
+}
+
+div.Right-side{
+  text-align: right;
+}
+
+span.Header-text{
+  margin: 0px 5px;
+  background-image: linear-gradient(rgb(95, 95, 249), rgb(95, 95, 249));
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+  text-decoration: none;
+}
+
+span.Header-text:hover,
+span.Header-text:focus,
+span.Header-text:active
+{
+  background-size: 100% 0.1em;
+}
+
+div.Positioning{
+  margin-top: 4%;
+  margin-right: 3%;
+  display: flex;
+  align-items: center;
+}
+
+div.Walking-America-background{
+  position:absolute;
+  background-color: rgb(47, 47, 47);
+  margin: 3% 50% 3% 5%;
+  padding-top: 1.2%;
+}
+
+h1.Main-header{
+  padding-left: 20%;
+  font-size: 3vw;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.Walking-America-small-text{
+  color: white;
+  margin: 0% 23% 0% 20%;
+  font-size: 1vw;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button.Our-Journey-Button{
+  background-color: black;
+  color: white;
+  font-size: .8vw;
+  margin: 5% 0% 7.2% 35%;
+  padding: 1.5% 4%;
+  border: solid rgb(95, 95, 249) .5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button.Our-Journey-Button:hover{
+  transition: 0.3s;
+  background-color: rgb(145, 145, 253);
+  color: black;
+}
+
+img.Walking-America-main-picture{
+  margin: 0% 0% 0% 65%;
+}
